@@ -1,8 +1,9 @@
-m1=[[1,2,3],[1,52,23],[16,2,31]]
-m2=[[2,3,6],[3,78,20],[3,6,2]]
-m3=[[0]*3]*3
-for i in range(len(m1)):
-    for j in range(len(m2[0])):
-        for k in range(len(m1)):
-            m3[i][j]+=m1[i][k]*m2[k][j]
-print(m3)
+X = [[12,7,3],[4 ,5,6],[7 ,8,9]]
+Y = [[5,8,1],[6,7,3],[4,5,9]]
+Z = [[0,0,0],[0,0,0],[0,0,0]]
+
+for i in range(len(X)):
+   for j in range(len(Y[0])):
+       for k in range(len(Y)):
+           Z[i][j] += X[i][k] * Y[k][j]
+print(Z)
