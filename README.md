@@ -1,2 +1,1 @@
-#Python training
-Assignments
+Some Python beginner problems
